@@ -2,7 +2,7 @@
 rm(list=ls())
 
 #Source the Global function
-source("common_functions.R")
+source("bin/common_functions.R")
 
 
 filename <- "data/football.dat"
@@ -13,6 +13,9 @@ footballdf <- loadfile(filename,colnms)
 
 #Data Cleanup - Remove all rows which has NA
 footballdf <- na.omit(footballdf)
+footballdf[,7]<-as.numeric(as.character(footballdf[,7]))
+footballdf[,9]<-as.numeric(as.character(footballdf[,9]))
+
 
 ##Call the function to calculate the spread
 out <- spread(footballdf, "fr", "ag")

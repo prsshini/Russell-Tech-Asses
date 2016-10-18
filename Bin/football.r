@@ -14,6 +14,8 @@ footballdf<-as.data.frame(football)
 
 #Data Cleanup - Remove all rows which has NA
 footballdf <- na.omit(footballdf)
+footballdf[,7]<-as.numeric(as.character(footballdf[,7]))
+footballdf[,9]<-as.numeric(as.character(footballdf[,9]))
 
 
 ##Find the smallest difference between "for and "against" goals and the respective team.

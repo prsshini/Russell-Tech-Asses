@@ -16,6 +16,9 @@ weatherdf[] <- lapply(weatherdf,as.character)
 weatherdf[] <- sapply(weatherdf[], function(col) {
   as.integer(sub("[*]$", "", col))
 })
+weatherdf[,2] <- as.numeric(as.character(weatherdf[,2]))
+weatherdf[,3] <- as.numeric(as.character(weatherdf[,3]))
+
 
 
 
