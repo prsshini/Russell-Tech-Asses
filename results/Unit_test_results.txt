@@ -1,0 +1,48 @@
+
+
+Executing test function test.calc_spread_as_expected  ...  done successfully.
+
+
+
+Executing test function test.exception_when_Param_is_Num  ... [1] "Argument cannot be a number" "[[1]]"                       "  colno col1 col2 spread"   
+[4] "1     1    1    3     -2"    ""                           
+ done successfully.
+
+
+
+Executing test function test.Fail_Incorrect_Param  ...  done successfully.
+
+
+
+Executing test function test.Fail_when_NULL  ...  done successfully.
+
+
+
+Executing test function test.load_file  ...  done successfully.
+
+RUNIT TEST PROTOCOL -- Mon Oct 17 22:10:57 2016 
+*********************************************** 
+Number of test functions: 5 
+Number of errors: 0 
+Number of failures: 0 
+
+ 
+1 Test Suite : 
+example - 5 test functions, 0 errors, 0 failures
+
+
+
+Details 
+*************************** 
+Test Suite: example 
+Test function regexp: ^test.+ 
+Test file regexp: ^\d+\.R 
+Involved directory: 
+tests 
+--------------------------- 
+Test file: tests/1.R 
+test.calc_spread_as_expected: (1 checks) ... OK (0 seconds)
+test.exception_when_Param_is_Num: (1 checks) ... OK (0.01 seconds)
+test.Fail_Incorrect_Param: (1 checks) ... OK (0 seconds)
+test.Fail_when_NULL: (1 checks) ... OK (0 seconds)
+test.load_file: (1 checks) ... OK (0 seconds)
