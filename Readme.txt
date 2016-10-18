@@ -1,6 +1,6 @@
-Download R and Rstudio to run the R programs. R server must be downloaded before Rstudio:
+Download R and Rstudio to run the R programs.
 
-R for Windows can be downloaded at:
+R can be downloaded at:
 https://cran.r-project.org/bin/windows/base/
 
 RStudio can be downloaded at:
