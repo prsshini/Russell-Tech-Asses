@@ -1,6 +1,6 @@
 library('RUnit')
 
-source('Spread_Function.R')
+source("bin/common_functions.R")
 
 test.suite <- defineTestSuite("example",
                               dirs = file.path("tests"),
